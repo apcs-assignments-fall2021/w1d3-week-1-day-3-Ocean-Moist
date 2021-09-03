@@ -24,7 +24,7 @@ public class MyMain {
         return (Math.random() < 0.5);
     }
 
-    // This method simulates the flip of a weighted coin,
+    // This method simulates the flip of a weighted coin,round
     // that is a coin that is biased towards heads
     public static boolean flipWeightedCoin() {
         return (Math.random() < 0.7);
@@ -57,11 +57,7 @@ public class MyMain {
 
     public static void main(String[] args) {
         // Test the add5 method
-        int x = 2;
-        int y = add5(x);
-        System.out.println(y);
-
-        // YOUR CODE HERE
+        System.out.print(add5(1) + " " + findBiggestNumber(1, 2, 3) + " " + flipCoin() + " " + flipWeightedCoin() + " " + round(2.3) + " " + rollDie() + " ");
+        quadForm(1,8,16);
     }
 }
-
