@@ -21,7 +21,7 @@ public class MyMain {
     // true represents "heads" and false represents "tails"
     // This method should return true half the time, and false the other half
     public static boolean flipCoin() {
-        return (Math.random() < 0.5);
+        return (Math.random() <= 0.5);
     }
 
     // This method simulates the flip of a weighted coin,round
